@@ -1,9 +1,7 @@
-# Example 1 - Exploratory Data Analysis
+# Example 1 - Classification
 
-# Example 2 - Classification
+# Example 2 - Regression 
 
-# Example 3 - Regression 
+# Example 3 - Clustering 
 
-# Example 4 - Clustering 
-
-# Example 5 - Deep Netrual Network (Time series data)
+# Example 4 - Deep Netrual Network (Time series data)
