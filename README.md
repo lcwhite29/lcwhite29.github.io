@@ -1,7 +1,7 @@
-# Example 1 - Classification
+# Project 1 - Classification
 
-# Example 2 - Regression 
+# Project 2 - Regression 
 
-# Example 3 - Clustering 
+# Project 3 - Clustering 
 
-# Example 4 - NLP
+# Project 4 - NLP
