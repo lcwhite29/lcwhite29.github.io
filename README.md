@@ -1,4 +1,4 @@
-[# Project 1 - Classification (Diabetes)](https://github.com/lcwhite29/Project-Classification)
+# [Project 1 - Classification (Diabetes)](https://github.com/lcwhite29/Project-Classification)
 - This project is designed used to try to predict who has diabetes and who does not given biological information.
 - The data used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
 - This project includes some data exploration using seaborn, matplotlib, pandas and numpy.
