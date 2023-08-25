@@ -8,14 +8,20 @@
 
 # [Project 2 - Regression (Medical insurance)](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model that can accurately predict the price of medical insurance.
-- The data used in the project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
-- This project includes data exploration using seaborn, matplotlib, pandas and numpy to find possible correlations between prices and six different characteristics of a particular  person.
-- Then I used scikit-learn to develop a linear regression model to try and predict the prices. This had an absolute error of around 4000 and the square root of the mean squared error was around 6000.
-- To try and improve on this I decided to drop some of the medical costs which were excessive. In the hope that I could better predict the majority of the medical costs.
+- The data used in this project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
+- This project included data exploration using standard liberties such as seaborn, matplotlib, pandas and numpy. Using these to find possible correlations between medical costs and the six different characteristics of a particular person.
+- I used scikit-learn to develop a linear regression model to predict the prices. This had an absolute error of around 4000 and the square root of the mean squared error was around 6000.
+- To try and improve on this I decided to drop some of the medical costs which were at the excessive end as the model found these hard to predict. Instead, I hoped that I could better predict the majority of the medical costs by dropping these outliers.
+- Doing this improved the results as the absolute error dropped to around 2500 and the square root of the mean squared error dropped to around 4250.
+- This meant the model could predict results better if the price was not an outlier.
+- To try and improve on this I made a deep learning model using neural networks.
+- The deep learning model has an absolute error of around 1500 and the square root of the mean squared error is around 4300.
+- The model is particularly good at predicting prices up to around 15000 but like the linear regression model struggles beyond that point.
+- If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs. 
 
 # Project 3 - Clustering (IPL Cricketers)
 - In this project, we use data from IPL 2023 and a clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
 - The data used in this project comes from [Kaggle](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset).
 - In particular, I was interested in working out which players had a good IPL with the ball and which players had a good IPL with the bat. This required concatenation of the bowling and batting datasets using an inner join.
-- Then I did some cleaning of the dataset before using skikit-learn's k-means clustering algorithm to cluster the players in to two different categories.
+- Then I did some cleaning of the dataset before using skikit-learn's k-means clustering algorithm to cluster the players into two different categories.
 - Then I used seaborn's hue feature to visualise the results.
