@@ -17,7 +17,9 @@
 - To try and improve on this I made a deep learning model using neural networks.
 - The deep learning model has an absolute error of around 1500 and the square root of the mean squared error is around 4300.
 - The model is particularly good at predicting prices up to around 15000 but like the linear regression model struggles beyond that point.
-- If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs. 
+- If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs.
+
+![](https://github.com/lcwhite29/lcwhite29.github.io/tree/main/Images#:~:text=..-,Picture_1.png,-(File))
 
 # Project 3 - Clustering (IPL Cricketers)
 - In this project, we use data from IPL 2023 and a clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
