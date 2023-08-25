@@ -1,16 +1,17 @@
 # [Project 1 - Classification (Diabetes)](https://github.com/lcwhite29/Project-Classification)
 - This project is designed to try and predict who has diabetes and who does not given some biological data about patients.
-- The data used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
-- This project includes data exploration using several Python libraries such as seaborn, matplotlib, pandas and numpy.
-- Then using scikit-learn a logistic regression model is developed and tested against the dataset. This model has an accuracy of around 0.8 which is reasonably good given only 8 columns of biological data.
-- After this, I try to find an improved model using deep learning. This model ends up having the same accuracy of 0.8. However, it might be a better model to use in come medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes.
-- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some more data could collected which has a higher correlation with diabetes and some more patients to further refine the model.
+- The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
+- This project included data exploration and visualisation using several Python libraries such as seaborn, matplotlib, pandas and numpy.
+- Using scikit-learn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of around 0.79 which is reasonably good given only 8 columns of biological data within the dataset.
+- After looking at the logistic regression model, I then tried to find an improved model using deep learning. This new model ends up having the same accuracy of 0.79. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes in patients.
+- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this along with more patient data would help to refine the model.
 
 # [Project 2 - Regression (Medical insurance)](https://github.com/lcwhite29/Project-Regression)
-- This project attempts to find a model which can accurately predict the price of medical insurance.
+- This project attempts to find a model that can accurately predict the price of medical insurance.
 - The data used in the project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
-- This project includes some data exploration using seaborn, matplotlib, pandas and numpy to find possible correlations between prices and six different characteristics of a person.
-- Then using scikit-learn a linear regression model is used to try and predict the prices.
+- This project includes data exploration using seaborn, matplotlib, pandas and numpy to find possible correlations between prices and six different characteristics of a particular  person.
+- Then I used scikit-learn to develop a linear regression model to try and predict the prices. This had an absolute error of around 4000 and the square root of the mean squared error was around 6000.
+- To try and improve on this I decided to drop some of the medical costs which were excessive. In the hope that I could better predict the majority of the medical costs.
 
 # Project 3 - Clustering (IPL Cricketers)
 - In this project, we use data from IPL 2023 and a clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
