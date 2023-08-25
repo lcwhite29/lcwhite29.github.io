@@ -16,6 +16,3 @@
 - In particular, I was interested in working out which players had a good IPL with the ball and which players had a good IPL with the bat. This required concatenation of the bowling and batting datasets using an inner join.
 - Then I did some cleaning of the dataset before using skikit-learn's k-means clustering algorithm to cluster the players in to two different categories.
 - Then I used seaborn's hue feature to visualise the results.
-
-# Project 4 - NLP
--
