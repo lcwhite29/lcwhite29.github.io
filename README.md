@@ -19,7 +19,7 @@
 - The model is particularly good at predicting prices up to around 15000 but like the linear regression model struggles beyond that point.
 - If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs.
 
-![](/Images#:~:text=..-,Picture_1.png)
+![](Images/Picture_1.png)
 
 # Project 3 - Clustering (IPL Cricketers)
 - In this project, we use data from IPL 2023 and a clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
