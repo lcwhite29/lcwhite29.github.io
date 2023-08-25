@@ -1,8 +1,10 @@
 # [Project 1 - Classification (Diabetes)](https://github.com/lcwhite29/Project-Classification)
-- This project is designed used to try to predict who has diabetes and who does not given biological information.
+- This project is designed to try and predict who has diabetes and who does not given some biological data about patients.
 - The data used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
-- This project includes some data exploration using seaborn, matplotlib, pandas and numpy.
-- Then I use scikit-learn classification model and metrics to train and predict some test data and evaluate the model.
+- This project includes data exploration using several Python libraries such as seaborn, matplotlib, pandas and numpy.
+- Then using scikit-learn a logistic regression model is developed and tested against the dataset. This model has an accuracy of around 0.8 which is reasonably good given only 8 columns of biological data.
+- After this, I try to find an improved model using deep learning. This model ends up having the same accuracy of 0.8. However, it might be a better model to use in come medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes.
+- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some more data could collected which has a higher correlation with diabetes and some more patients to further refine the model.
 
 # [Project 2 - Regression (Medical insurance)](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model which can accurately predict the price of medical insurance.
