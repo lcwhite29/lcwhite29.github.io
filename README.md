@@ -29,12 +29,15 @@
 - If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this along with more patient data would help to refine the model.
 
 # [Clustering - IPL Cricketers](https://github.com/lcwhite29/Project-Clustering)
-- In this project, we use data from IPL 2023 and a clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
+- In this project, I use data from the IPL 2023 along with a k-means clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
 - The data used in this project comes from [Kaggle](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset).
-- In particular, I was interested in working out which players had a good IPL with the ball and which players had a good IPL with the bat. This required concatenation of the bowling and batting datasets using an inner join.
-- Then I did some cleaning of the dataset before using skikit-learn's k-means clustering algorithm to cluster the players into two different categories.
-- Then I used seaborn's hue feature to visualise the results.
+- In particular, I was interested in determining which players had a good IPL with the ball and which had a good IPL with the bat. This required concatenation of the bowling and batting datasets using an inner join.
+- Using sklearn's KMeans clustering algorithm I was able to cluster the players into three groups according to runs scored and wickets taken. Roughly the clusters were those who scored more than 200 runs, those with more than 8 wickets and those with 8 wickets for less and less than 200 runs. From here we can work out using the data frame which players did well with the bat and which players did well with the ball in particular. Using seaborn's hue feature I could then visualise the results.
 
 ![](Images/Picture_4.png)
 
+- Next, I did the same but for the outer joint.
+
 ![](Images/Picture_5.png)
+
+- There are plenty more things that I could do with this dataset. Including working out which players had the most impact in the tournament. These sorts of projects could be used by sports trading companies to help inform their trades for other tournaments.
