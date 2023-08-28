@@ -1,24 +1,25 @@
 # [Regression with deep learning - Medical insurance cost model](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model that can accurately predict the price of medical insurance.
 - The data used in this project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
-- This project included data exploration using standard liberties such as seaborn, matplotlib, pandas and numpy. Using these to find possible correlations between medical costs and the six different characteristics of a particular person.
-- I used scikit-learn to develop a linear regression model to predict the prices. This had an absolute error of around 4000 and the square root of the mean squared error was around 6000.
+- This project includes data exploration using libraries such as Seaborn, Matplotlib, Pandas and NumPy.  Using these libraries to find possible correlations between insurance prices and the six different characteristics of a particular person.
+- I initially used scikit-learn to develop a linear regression model to predict insurance prices. This linear regression model had an absolute error of around $4000 and the square root of the mean squared error was around $6000.
 
 ![](Images/Picture_1.png)
 
-- To try and improve on this I decided to drop some of the medical costs which were at the excessive end as the model found these hard to predict. Instead, I hoped that I could better predict the majority of the medical costs by dropping these outliers.
-- Doing this improved the results as the absolute error dropped to around 2500 and the square root of the mean squared error dropped to around 4250.
+- To improve this model, I decided to drop some of the insurance prices in the excessive price range (outliers) as the model found these hard to predict. I hoped this would improve the predictions for most insurance prices by dropping these outliers.
+- Doing this improved the results as the absolute error dropped to around $2500 and the square root of the mean squared error dropped to around $4250.
 
 ![](Images/Picture_2.png)
 
-- This meant the model could predict results better if the price was not an outlier.
-- To try and improve on this I made a deep learning model using neural networks.
-- The deep learning model has an absolute error of around 1500 and the square root of the mean squared error is around 4300.
+- The Linear regression model had a lower error if the price was not in the outlier range.
+- To improve,  I made a deep learning model using neural networks.
+- I tested this model on the same dataset again without the outliers.
+- This deep learning model has an absolute error of around $1500 and the square root of the mean squared error is around $4300.
 
 ![](Images/Picture_3.png)
 
-- The model is particularly good at predicting prices up to around 15000 but like the linear regression model struggles beyond that point.
-- If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs.
+- The model is particularly good at predicting prices up to around $15000, but like the linear regression model this model struggles beyond that point.
+- If I spent more time on this project, I would look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs.
 
 # [Classification with deep learning - Diabetes Classifier](https://github.com/lcwhite29/Project-Classification)
 - This project is designed to try and predict who has diabetes and who does not given some biological data about patients.
