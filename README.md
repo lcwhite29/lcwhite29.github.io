@@ -1,4 +1,4 @@
-# [Regression - Medical insurance cost](https://github.com/lcwhite29/Project-Regression)
+# [Regression with deep learning - Medical insurance cost](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model that can accurately predict the price of medical insurance.
 - The data used in this project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
 - This project included data exploration using standard liberties such as seaborn, matplotlib, pandas and numpy. Using these to find possible correlations between medical costs and the six different characteristics of a particular person.
@@ -20,7 +20,7 @@
 - The model is particularly good at predicting prices up to around 15000 but like the linear regression model struggles beyond that point.
 - If I spent more time on this project I look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher medical costs.
 
-# [Classification - Diabetes](https://github.com/lcwhite29/Project-Classification)
+# [Classification with deep learning - Diabetes](https://github.com/lcwhite29/Project-Classification)
 - This project is designed to try and predict who has diabetes and who does not given some biological data about patients.
 - The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
 - This project included data exploration and visualisation using several Python libraries such as seaborn, matplotlib, pandas and numpy.
