@@ -23,22 +23,6 @@
 - The model is particularly good at predicting prices up to around $15000, but like the linear regression model, this model struggles to predict beyond that price.
 - If I were to spend more time on this project, I would look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher insurance prices people have been charged.
 
-# [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
-- This project is designed to try and classify who has diabetes and who does not given some biological data about patients.
-- The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
-- This project included data exploration and visualisation using several Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
-
-![](Images/Picture_6.png)
-
-- Using sklearn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of **0.79** which is reasonably good given only 8 columns of biological data within the dataset.
-- After looking at the logistic regression model, I then tried to find an improved model using deep learning.
-- Using TensorFlow and Keras I was able to make a classification model.
-
-![](Images/Picture_7.png)
-
-- This new model ends up having the same accuracy of **0.79**. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes in patients.
-- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this new data along with more patient data would help to refine the model.
-
 # [Grouping IPL Cricketers -  Clustering](https://github.com/lcwhite29/Project-Clustering)
 - In this project, I use data from the IPL 2023 along with a k-means clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
 - The data used in this project comes from [Kaggle](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset).
@@ -56,3 +40,19 @@
 - There are plenty more things that I could do with this dataset. Including working out which players had the most impact in the tournament.
 - If there are similar datasets from previous years then these could be used to see how players have performed across multiple IPLs.
 - These sorts of projects could be used by sports trading companies to help inform their trades for other tournaments.
+
+# [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
+- This project is designed to try and classify who has diabetes and who does not given some biological data about patients.
+- The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
+- This project included data exploration and visualisation using several Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
+
+![](Images/Picture_6.png)
+
+- Using sklearn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of **0.79** which is reasonably good given only 8 columns of biological data within the dataset.
+- After looking at the logistic regression model, I then tried to find an improved model using deep learning.
+- Using TensorFlow and Keras I was able to make a classification model.
+
+![](Images/Picture_7.png)
+
+- This new model ends up having the same accuracy of **0.79**. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes in patients.
+- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this new data along with more patient data would help to refine the model.
