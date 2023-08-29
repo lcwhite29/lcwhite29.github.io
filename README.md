@@ -45,12 +45,14 @@
 - This project is designed to try and classify who has diabetes and who does not given some biological data about patients.
 - The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
 - This project included data exploration and visualisation using several Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
+- Image of the headmap of correlations below.
 
 ![](Images/Picture_6.png)
 
 - Using sklearn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of **0.79** which is reasonably good given only 8 columns of biological data within the dataset.
 - After looking at the logistic regression model, I then tried to find an improved model using deep learning.
 - Using TensorFlow and Keras I was able to make a classification model.
+- Image of the loss and val_loss plot.
 
 ![](Images/Picture_7.png)
 
