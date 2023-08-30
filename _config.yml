@@ -1,6 +1,13 @@
 title: Lewis White
 description: Data science projects I have worked on to showcase a range of my skills in data science/data analysis.
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
 # Additional configuration settings
 # Google Analytics
 google_analytics: UA-215081080-1
+
+
+- theme: minima
++ remote_theme: jekyll/minima
+
+  plugins:
++ - jekyll-remote-theme
