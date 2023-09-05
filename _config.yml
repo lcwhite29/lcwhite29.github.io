@@ -7,7 +7,7 @@ description: Data science projects I have worked on to showcase a range of my sk
 google_analytics: UA-215081080-1
 
 #Added this to make the Google Analytics work
-- theme: slate
+#- theme: slate
 + remote_theme: jekyll/slate
 
   plugins:
