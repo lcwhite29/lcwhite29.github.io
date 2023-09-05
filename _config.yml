@@ -10,5 +10,5 @@ google_analytics: UA-215081080-1
 #- theme: slate
 plugins:
   - jekyll-remote-theme
-  
-remote_theme: jekyll/slate
+
+remote_theme: pages-themes/slate@v0.2.0
