@@ -8,7 +8,7 @@ google_analytics: UA-215081080-1
 
 #Added this to make the Google Analytics work
 #- theme: slate
-+ remote_theme: jekyll/slate
-
-  plugins:
-+ - jekyll-remote-theme
+plugins:
+  - jekyll-remote-theme
+  
+remote_theme: jekyll/slate
