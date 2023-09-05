@@ -3,8 +3,6 @@ description: Data science projects I have worked on to showcase a range of my sk
 #Added the theme below instead of this
 #theme: jekyll-theme-slate
 # Additional configuration settings
-# Google Analytics
-google_analytics: UA-215081080-1
 
 #Added this to make the Google Analytics work
 - theme: slate
@@ -12,3 +10,6 @@ google_analytics: UA-215081080-1
 
   plugins:
 + - jekyll-remote-theme
+
+# Google Analytics
+google_analytics: UA-215081080-1
