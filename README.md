@@ -1,4 +1,4 @@
-# Data Projects
+# Projects
 Below are some projects that I have produced to show off some of my skills and knowledge of data science/data analysis. The links to the GitHub repositories are in the title of each project.
 
 # [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
