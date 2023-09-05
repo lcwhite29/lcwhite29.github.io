@@ -50,6 +50,7 @@
 ![](Images/Picture_6.png)
 
 - Using sklearn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of **0.79** which is reasonably good given only 8 columns of biological data within the dataset.
+- Image of the confusion matrix.
 
 ![](Images/Picture_7.png)
 
@@ -60,6 +61,7 @@
 ![](Images/Picture_8.png)
 
 - This new model ends up having the same accuracy of **0.79**. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes in patients.
+- Image of the confusion matrix.
 
 ![](Images/Picture_9.png)
 
