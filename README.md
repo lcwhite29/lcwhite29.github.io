@@ -1,5 +1,12 @@
 # Projects
-Below are some projects that I have produced to show off some of my skills and knowledge of data science/data analysis. The links to the GitHub repositories are in the title of each project.
+Below are some projects that I have produced to show off some of my skills and knowledge of data science/data analytics. The links to the GitHub repositories are given here.
+
+- [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
+- [Grouping IPL Cricketers -  Clustering](https://github.com/lcwhite29/Project-Clustering)
+- [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
+- [What does Naive Bayes know about (Bumble) dating reviews? - NLP](https://github.com/lcwhite29/Project-NLP)
+
+However, I have added the README's of each project below to save you from clicking on the repositories. The links to the GitHub repositories are also provided in the titles below.
 
 # [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model that can accurately predict the price of medical insurance.
