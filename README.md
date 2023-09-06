@@ -6,7 +6,7 @@ Below are some projects that I have produced to show off some of my skills and k
 - [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
 - [What does Naive Bayes know about (Bumble) dating reviews? - NLP](https://github.com/lcwhite29/Project-NLP)
 
-However, I have added the README's of each project below to save you from clicking on the repositories. The links to the GitHub repositories are also provided in the titles below.
+However, I have added the README of each project below to save you from clicking on the repositories. The links to the GitHub repositories are also provided in the titles below.
 
 # [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
 - This project attempts to find a model that can accurately predict the price of medical insurance.
