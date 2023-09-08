@@ -17,8 +17,8 @@ However, I have added the README of each project below to save you from clicking
 
 ![](Images/Picture_1.png)
 
-- To improve this model, I decided to drop some of the insurance prices in the excessive price range (outliers) as the model found these hard to predict. I hoped by dropping the outliers that the predictions for most of the insurance prices would improve.
-- Doing this improved the results as the absolute error dropped to around **$2500** and the square root of the mean squared error dropped to around **$4250**.
+- To improve this model, I decided to drop some of the insurance prices in the excessive price range (outliers) as the model found these hard to predict. My idea was that, by dropping these outliers, I might improve the predictions for most insurance prices.
+- Doing this improved the results as the absolute error dropped to around **$2500**, and the square root of the mean squared error dropped close to **$4250**.
 - Below is an image of the correct values against the predictions for the new model.
 
 ![](Images/Picture_2.png)
