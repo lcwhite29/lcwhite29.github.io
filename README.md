@@ -12,7 +12,7 @@ However, I have added the README of each project below to save you from clicking
 - This project attempts to find a model that can accurately predict the price of medical insurance.
 - The data used in this project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
 - This project includes data exploration using libraries such as Seaborn, Matplotlib, Pandas and NumPy.  Using these libraries, I explored the possible correlations between insurance prices and the six different characteristics of a particular person.
-- I initially used sklearn to develop a linear regression model to predict insurance prices. This linear regression model had an absolute error of around **$4000** and the square root of the mean squared error was around **$6000**.
+- I initially used sklearn to develop a linear regression model to predict insurance prices. This linear regression model had an absolute error of around **$4000**, and the square root of the mean squared error was around **$6000**.
 - Below is an image of the correct values against the predictions.
 
 ![](Images/Picture_1.png)
