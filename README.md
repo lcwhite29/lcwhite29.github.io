@@ -1,5 +1,5 @@
 # Projects
-Below are some projects that I have produced to show off some of my skills and knowledge of data science/data analytics. The links to the GitHub repositories are given here.
+Below are some projects I have produced to show off some of my skills and knowledge of data science/data analytics. The links to all the GitHub repositories are here:
 
 - [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
 - [Grouping IPL Cricketers -  Clustering](https://github.com/lcwhite29/Project-Clustering)
