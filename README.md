@@ -9,6 +9,7 @@ Below are some projects I have produced to show off some of my skills and knowle
 However, I have added the README of each project below to save you from clicking on the repositories. The links to the GitHub repositories are also in the titles below.
 
 # [Medical insurance cost model - Regression with deep learning](https://github.com/lcwhite29/Project-Regression)
+
 - This project attempts to find a model that can accurately predict the price of medical insurance.
 - The data used in this project comes from a [raw](https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv) data source.
 - This project includes data exploration using libraries such as Seaborn, Matplotlib, Pandas and NumPy.  Using these libraries, I explored the possible correlations between insurance prices and the six different characteristics of a particular person.
@@ -34,24 +35,26 @@ However, I have added the README of each project below to save you from clicking
 - If I were to spend more time on this project, I would look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher insurance prices.
 
 # [Grouping IPL Cricketers -  Clustering](https://github.com/lcwhite29/Project-Clustering)
-- In this project, I use data from the IPL 2023 along with a k-means clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
+
+- In this project, I use data from the IPL 2023 to perform a k-means clustering algorithm that will split players into different categories depending on stats like the number of wickets they took and the number of runs they scored.
 - The data used in this project comes from [Kaggle](https://www.kaggle.com/datasets/purnend26/ipl-2023-dataset).
-- In particular, I was interested in determining which players had a good IPL with the ball and which had a good IPL with the bat. This required concatenation of the bowling and batting datasets using an inner join.
-- Using sklearn's KMeans clustering algorithm I was able to cluster the players into three groups according to runs scored and wickets taken. Roughly the clusters were those who scored more than 200 runs, those with more than 8 wickets and those with less than 8 wickets and less than 200 runs. From here we can work out using the data frame which players did well with the bat and which players did well with the ball in particular. Using Seaborn's hue feature I could then visualise the results.
+- In particular, I was interested in determining which players had performed well with the ball and which had performed well with the bat in the IPL 2023. To do this required a lot of data manipulation, including concatenation of the bowling and batting datasets using an inner join.
+- Using sklearn’s KMeans clustering algorithm, I clustered the players into three groups according to runs scored and wickets taken. Roughly the three groups were players who scored more than 200 runs, players with more than eight wickets and players with less than eight wickets and less than 200 runs. From this, someone can work out using the data frame which players did well with the bat and which players did well with the ball in particular. Using Seaborn, I could then visualise the results.
 
 ![](Images/Picture_4.png)
 
 - Next, I did the same but for the outer joint.
-- Here the clusters are roughly those who scored more than 200 runs, those with more than 6 wickets and those with less than 6 wickets and less than 200 runs. 
+- For this example, the groups are roughly players who scored more than 200 runs, players with more than six wickets and players with less than six wickets and less than 200 runs. 
 
 ![](Images/Picture_5.png)
 
-- This is an interesting visualisation of how players played in the IPL 2023.
+- This is a good visualization showing some insights of the IPL 2023.
 - There are plenty more things that I could do with this dataset. Including working out which players had the most impact in the tournament.
-- If there are similar datasets from previous years then these could be used to see how players have performed across multiple IPLs.
-- These sorts of projects could be used by sports trading companies to help inform their trades for other tournaments.
+- If there are similar datasets from previous years, then I could use these to see how players have performed across multiple IPLs.
+- Sports trading companies can use these sorts of projects to help inform their trades for different tournaments.
 
 # [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
+
 - This project is designed to try and classify who has diabetes and who does not given some biological data about patients.
 - The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
 - This project included data exploration and visualisation using several Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
@@ -78,6 +81,7 @@ However, I have added the README of each project below to save you from clicking
 - If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this new data along with more patient data would help to refine the model.
 
 # [What does Naive Bayes know about (Bumble) dating reviews? - NLP](https://github.com/lcwhite29/Project-NLP)
+
 - Here I explored 2000 Bumble dating reviews from the Apple app store in this project. I wanted to make a model that could determine whether a review was good or bad (here I decided that a good review was 4 or more). I also wanted to see which words occurred the most for different ratings.
 - So I started by doing some exploratory data analysis using Python libraries such as Seaborn, Matplotlib, Pandas and NumPy. My first task was to work out how many 1 to 5-star reviews there are.
 - Using Python this is easy to find and as we see in this first image there are a large number of 1-star reviews. This will be taken into account when considering the accuracy of the model later on.
