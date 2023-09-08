@@ -23,10 +23,10 @@ However, I have added the README of each project below to save you from clicking
 
 ![](Images/Picture_2.png)
 
-- The linear regression model had a lower error if the price was not in the outlier range.
-- To improve on this model,  I made a deep learning model using neural networks. Using TensorFlow and Keras I was able to make a regression model.
+- The linear regression model did have a lower error when considering data not in the excessive price ranges.
+- To try and improve my predictions, I decided to make a deep learning model using neural networks. Using TensorFlow and Keras, I made a new regression model.
 - I tested this model on the same dataset again without the outliers.
-- This deep learning model has an absolute error of around **$1500** and the square root of the mean squared error is around **$4300**.
+- This deep learning model has an absolute error of around **$1500**, and the square root of the mean squared error is around **$4300**.
 
 ![](Images/Picture_3.png)
 
