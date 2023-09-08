@@ -55,30 +55,30 @@ However, I have added the README of each project below to save you from clicking
 
 # [Diabetes Classifier - Classification with deep learning](https://github.com/lcwhite29/Project-Classification)
 
-- This project is designed to try and classify who has diabetes and who does not given some biological data about patients.
+- This project is designed to classify which patients have diabetes, given some biological data about the patients.
 - The dataset used in the project comes from [Kaggle](https://www.kaggle.com/datasets/ashishkumarjayswal/diabetes-dataset?resource=download).
 - This project included data exploration and visualisation using several Python libraries such as Seaborn, Matplotlib, Pandas and NumPy.
 - Image of the headmap of correlations below.
 
 ![](Images/Picture_6.png)
 
-- Using sklearn I created a logistic regression model which I tested using a train test split. The logistic regression model has an accuracy of **0.79** which is reasonably good given only 8 columns of biological data within the dataset.
+- Using sklearn, I created a logistic regression model that I then tested using a train test split. The logistic regression model has an accuracy of **0.79**. A reasonable degree of accuracy given there are only eight columns of biological data within the dataset.
 - Image of the confusion matrix.
 
 ![](Images/Picture_7.png)
 
-- After looking at the logistic regression model, I then tried to find an improved model using deep learning.
-- Using TensorFlow and Keras I was able to make a classification model.
+- After looking at the logistic regression model, I tried to find an improved model using deep learning.
+- Using TensorFlow and Keras, I developed a classification model.
 - Image of the loss and val_loss plot.
 
 ![](Images/Picture_8.png)
 
-- This new model ends up having the same accuracy of **0.79**. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it could be used as an initial warning for diabetes in patients.
+- This new model has the same accuracy of **0.79**. However, it might be a better model to use in some medical contexts as it is more likely to predict that people have diabetes. Therefore, it may be better than the logistic regression model as an initial warning for diabetes in patients.
 - Image of the confusion matrix.
 
 ![](Images/Picture_9.png)
 
-- If I could spend more time on this project I would try to optimise the model some more. Additionally, I would hope that some different data could be collected that has a correlation with diabetes. As this new data along with more patient data would help to refine the model.
+- If I could spend more time on this project, I would try to optimise the model more. I would also collect additional patient data as this could help to refine the model.
 
 # [What does Naive Bayes know about (Bumble) dating reviews? - NLP](https://github.com/lcwhite29/Project-NLP)
 
