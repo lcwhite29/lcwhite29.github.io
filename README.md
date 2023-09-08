@@ -31,7 +31,7 @@ However, I have added the README of each project below to save you from clicking
 ![](Images/Picture_3.png)
 
 - The model is particularly good at predicting prices up to around $15000, but like the linear regression model, this model struggles to predict beyond that price.
-- If I were to spend more time on this project, I would look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher insurance prices people have been charged.
+- If I were to spend more time on this project, I would look more closely at what factors affect the price of someone's medical insurance costs. I would also seek more data to explain the outliers and some of the higher insurance prices.
 
 # [Grouping IPL Cricketers -  Clustering](https://github.com/lcwhite29/Project-Clustering)
 - In this project, I use data from the IPL 2023 along with a k-means clustering algorithm to split players into different categories depending on stats like the number of wickets they got and the number of runs they scored.
